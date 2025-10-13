@@ -16,7 +16,7 @@ for nowres in "${res[@]}"; do
 	combined="${w}x${h}"
 
 	frame_dir="temp/frames/${combined}"
-	comp_dir="${frame_dir}/composed/${combined}"
+	comp_dir="${frame_dir}/composed"
 	wall_dir="walls-${combined}"
 
 	mkdir -p "$frame_dir" "$comp_dir" "$wall_dir"
