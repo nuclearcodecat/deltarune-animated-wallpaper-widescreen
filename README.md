@@ -7,4 +7,4 @@ i use the webp file with swww and it works perfectly.
 
 if your screen resolution isn't here: clone the repo, edit generate_walls.sh, add your res to the array; then execute (`./generate_walls.sh`)  
 
-the script destructres the original gif into separate frames, clips off a 1px edge from the left, stretches that to the desired resolution and composites the original animation on top. then these composited frames are compiled into movies.
+the script destructures the original gif into separate frames, clips off a 1px edge from the left, stretches that to the desired resolution and composites the original animation on top. then these composited frames are compiled into movies.
